@@ -1,0 +1,47 @@
+[
+  {
+    "id": "reasoning_seq",
+    "domain": "reasoning",
+    "difficulty": "easy",
+    "type": "sequence",
+    "length": 4
+  },
+  {
+    "id": "reasoning_logic",
+    "domain": "reasoning",
+    "difficulty": "medium",
+    "type": "logic"
+  },
+  {
+    "id": "memory_short",
+    "domain": "memory",
+    "difficulty": "easy",
+    "type": "recall",
+    "length": 3
+  },
+  {
+    "id": "memory_working",
+    "domain": "memory",
+    "difficulty": "medium",
+    "type": "recall",
+    "length": 5
+  },
+  {
+    "id": "attention_symbol",
+    "domain": "attention",
+    "difficulty": "easy",
+    "type": "odd_one"
+  },
+  {
+    "id": "language_meaning",
+    "domain": "language",
+    "difficulty": "medium",
+    "type": "sentence"
+  },
+  {
+    "id": "executive_planning",
+    "domain": "executive",
+    "difficulty": "medium",
+    "type": "priority"
+  }
+]

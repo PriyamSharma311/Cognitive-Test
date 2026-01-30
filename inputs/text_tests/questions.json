@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_questions": 100,
+    "domains": ["memory", "attention", "language", "reasoning", "executive"]
+  },
+  "questions": [
+    {"question_id":"MEM_01","domain":"memory","difficulty":"easy","question":"Remember these words: apple, car, book. Which word was in the list?","options":["dog","apple","tree","house"],"correct_answer":"apple","max_score":1,"time_limit_sec":20},
+    {"question_id":"MEM_02","domain":"memory","difficulty":"easy","question":"Remember this number: 42. What number did you see?","correct_answer":"42","max_score":1,"time_limit_sec":15},
+    {"question_id":"MEM_03","domain":"memory","difficulty":"easy","question":"Remember these items: pen, cup, shoe. How many items were there?","correct_answer":"3","max_score":1,"time_limit_sec":20},
+    {"question_id":"MEM_04","domain":"memory","difficulty":"easy","question":"Which word did you see earlier: dog or cat?","correct_answer":"dog","max_score":1,"time_limit_sec":15},
+    {"question_id":"MEM_05","domain":"memory","difficulty":"medium","question":"Remember this order: red, blue, green. What came second?","correct_answer":"blue","max_score":1,"time_limit_sec":25},
+
+    {"question_id":"MEM_06","domain":"memory","difficulty":"medium","question":"Remember these numbers: 4, 9, 2, 7. What was the last number?","correct_answer":"7","max_score":1,"time_limit_sec":25},
+    {"question_id":"MEM_07","domain":"memory","difficulty":"medium","question":"Which item was NOT shown: chair, table, apple, sofa?","correct_answer":"apple","max_score":1,"time_limit_sec":25},
+    {"question_id":"MEM_08","domain":"memory","difficulty":"medium","question":"Remember this sentence: The boy ran home. Who ran home?","correct_answer":"boy","max_score":1,"time_limit_sec":25},
+    {"question_id":"MEM_09","domain":"memory","difficulty":"hard","question":"Remember this sequence: 3, 8, 1, 6. What was the third number?","correct_answer":"1","max_score":2,"time_limit_sec":30},
+    {"question_id":"MEM_10","domain":"memory","difficulty":"hard","question":"Remember these words: sun, moon, star, cloud. Which came first?","correct_answer":"sun","max_score":2,"time_limit_sec":30},
+
+    {"question_id":"MEM_11","domain":"memory","difficulty":"easy","question":"Did you see the word 'banana' earlier?","correct_answer":"no","max_score":1,"time_limit_sec":15},
+    {"question_id":"MEM_12","domain":"memory","difficulty":"easy","question":"How many letters are in the word 'cat'?","correct_answer":"3","max_score":1,"time_limit_sec":15},
+    {"question_id":"MEM_13","domain":"memory","difficulty":"medium","question":"Remember: bus, train, car. What was in the middle?","correct_answer":"train","max_score":1,"time_limit_sec":20},
+    {"question_id":"MEM_14","domain":"memory","difficulty":"medium","question":"Which color was mentioned: green or purple?","correct_answer":"green","max_score":1,"time_limit_sec":20},
+    {"question_id":"MEM_15","domain":"memory","difficulty":"hard","question":"Remember this order: dog, cat, bird, fish. What came before bird?","correct_answer":"cat","max_score":2,"time_limit_sec":30},
+
+    {"question_id":"MEM_16","domain":"memory","difficulty":"easy","question":"Did you see the number 10 earlier?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"MEM_17","domain":"memory","difficulty":"medium","question":"Remember: milk, bread, eggs. Which item was last?","correct_answer":"eggs","max_score":1,"time_limit_sec":20},
+    {"question_id":"MEM_18","domain":"memory","difficulty":"hard","question":"Remember this sequence: A, C, B, D. What was second?","correct_answer":"C","max_score":2,"time_limit_sec":30},
+    {"question_id":"MEM_19","domain":"memory","difficulty":"hard","question":"Remember: phone, key, wallet, watch. What came last?","correct_answer":"watch","max_score":2,"time_limit_sec":30},
+    {"question_id":"MEM_20","domain":"memory","difficulty":"hard","question":"Remember this sentence: The cat slept on the mat. Where did the cat sleep?","correct_answer":"on the mat","max_score":2,"time_limit_sec":35},
+
+    
+
+    {"question_id":"ATT_01","domain":"attention","difficulty":"easy","question":"Select the word that is different: circle, square, triangle, apple","correct_answer":"apple","max_score":1,"time_limit_sec":20},
+    {"question_id":"ATT_02","domain":"attention","difficulty":"easy","question":"Click YES if you see the word 'blue' in this sentence: The sky is blue.","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"ATT_03","domain":"attention","difficulty":"medium","question":"Count how many times the letter 'a' appears in: banana","correct_answer":"3","max_score":1,"time_limit_sec":25},
+    {"question_id":"ATT_04","domain":"attention","difficulty":"easy","question":"Which number is bigger: 5 or 9?","correct_answer":"9","max_score":1,"time_limit_sec":15},
+    {"question_id":"ATT_05","domain":"attention","difficulty":"medium","question":"Find the word with a spelling mistake: applle, orange, mango","correct_answer":"applle","max_score":1,"time_limit_sec":25},
+
+    {"question_id":"ATT_06","domain":"attention","difficulty":"medium","question":"Which shape appears twice: circle, square, triangle, circle","correct_answer":"circle","max_score":1,"time_limit_sec":25},
+    {"question_id":"ATT_07","domain":"attention","difficulty":"easy","question":"Is the word 'dog' written in this sentence: I saw a dog running.","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"ATT_08","domain":"attention","difficulty":"medium","question":"Count the vowels in the word 'education'.","correct_answer":"5","max_score":1,"time_limit_sec":30},
+    {"question_id":"ATT_09","domain":"attention","difficulty":"hard","question":"Which letter appears most in 'mississippi'?","correct_answer":"i","max_score":2,"time_limit_sec":30},
+    {"question_id":"ATT_10","domain":"attention","difficulty":"hard","question":"Spot the odd number: 2, 4, 6, 9, 8","correct_answer":"9","max_score":2,"time_limit_sec":30},
+
+    {"question_id":"ATT_11","domain":"attention","difficulty":"easy","question":"Which word is longer: cat or elephant?","correct_answer":"elephant","max_score":1,"time_limit_sec":15},
+    {"question_id":"ATT_12","domain":"attention","difficulty":"medium","question":"How many words are in this sentence: I like ice cream","correct_answer":"4","max_score":1,"time_limit_sec":20},
+    {"question_id":"ATT_13","domain":"attention","difficulty":"medium","question":"Which number is missing: 1, 2, _, 4","correct_answer":"3","max_score":1,"time_limit_sec":20},
+    {"question_id":"ATT_14","domain":"attention","difficulty":"hard","question":"Count the consonants in 'strength'.","correct_answer":"6","max_score":2,"time_limit_sec":35},
+    {"question_id":"ATT_15","domain":"attention","difficulty":"easy","question":"Is the word 'sun' a noun?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+
+    {"question_id":"ATT_16","domain":"attention","difficulty":"medium","question":"Which number is smallest: 12, 5, 9","correct_answer":"5","max_score":1,"time_limit_sec":20},
+    {"question_id":"ATT_17","domain":"attention","difficulty":"medium","question":"Which letter comes after F?","correct_answer":"G","max_score":1,"time_limit_sec":15},
+    {"question_id":"ATT_18","domain":"attention","difficulty":"hard","question":"How many times does 'the' appear: the cat and the dog saw the bird","correct_answer":"3","max_score":2,"time_limit_sec":35},
+    {"question_id":"ATT_19","domain":"attention","difficulty":"easy","question":"Is water wet?","correct_answer":"yes","max_score":1,"time_limit_sec":10},
+    {"question_id":"ATT_20","domain":"attention","difficulty":"hard","question":"Which word has the most letters: ant, butterfly, lion","correct_answer":"butterfly","max_score":2,"time_limit_sec":30},
+
+    
+
+    {"question_id":"LAN_01","domain":"language","difficulty":"easy","question":"What does the word 'happy' mean?","correct_answer":"feeling good","max_score":1,"time_limit_sec":30},
+    {"question_id":"LAN_02","domain":"language","difficulty":"medium","question":"Which sentence makes sense?","options":["The dog flew the car","The car drove on the road"],"correct_answer":"The car drove on the road","max_score":1,"time_limit_sec":30},
+    {"question_id":"LAN_03","domain":"language","difficulty":"easy","question":"What is the opposite of 'hot'?","correct_answer":"cold","max_score":1,"time_limit_sec":20},
+    {"question_id":"LAN_04","domain":"language","difficulty":"medium","question":"Choose the correct plural: child → ?","correct_answer":"children","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_05","domain":"language","difficulty":"hard","question":"What does 'predict' mean?","correct_answer":"to guess what will happen","max_score":2,"time_limit_sec":40},
+
+    {"question_id":"LAN_06","domain":"language","difficulty":"easy","question":"Which word is a verb: run or chair?","correct_answer":"run","max_score":1,"time_limit_sec":20},
+    {"question_id":"LAN_07","domain":"language","difficulty":"medium","question":"Complete the sentence: I am ___ than yesterday.","correct_answer":"better","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_08","domain":"language","difficulty":"medium","question":"Which word means the same as 'big'?","correct_answer":"large","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_09","domain":"language","difficulty":"hard","question":"What does 'confused' mean?","correct_answer":"not understanding","max_score":2,"time_limit_sec":40},
+    {"question_id":"LAN_10","domain":"language","difficulty":"hard","question":"Which sentence is correct?","options":["She don't like apples","She doesn't like apples"],"correct_answer":"She doesn't like apples","max_score":2,"time_limit_sec":40},
+
+    {"question_id":"LAN_11","domain":"language","difficulty":"easy","question":"What do we call a baby dog?","correct_answer":"puppy","max_score":1,"time_limit_sec":20},
+    {"question_id":"LAN_12","domain":"language","difficulty":"medium","question":"Which word describes a feeling: jump or sad?","correct_answer":"sad","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_13","domain":"language","difficulty":"medium","question":"Fill in the blank: Birds can ___.","correct_answer":"fly","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_14","domain":"language","difficulty":"hard","question":"Explain what 'responsibility' means.","correct_answer":"doing what you are supposed to do","max_score":2,"time_limit_sec":45},
+    {"question_id":"LAN_15","domain":"language","difficulty":"easy","question":"What sound does a cat make?","correct_answer":"meow","max_score":1,"time_limit_sec":15},
+
+    {"question_id":"LAN_16","domain":"language","difficulty":"medium","question":"Choose the correct word: I ___ to school.","correct_answer":"go","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_17","domain":"language","difficulty":"medium","question":"What is the past tense of 'run'?","correct_answer":"ran","max_score":1,"time_limit_sec":25},
+    {"question_id":"LAN_18","domain":"language","difficulty":"hard","question":"What does 'frustrated' mean?","correct_answer":"feeling upset because something is hard","max_score":2,"time_limit_sec":45},
+    {"question_id":"LAN_19","domain":"language","difficulty":"easy","question":"Is 'apple' a fruit?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"LAN_20","domain":"language","difficulty":"hard","question":"Explain what 'decision' means.","correct_answer":"making a choice","max_score":2,"time_limit_sec":40},
+
+
+
+    {"question_id":"REA_01","domain":"reasoning","difficulty":"easy","question":"What comes next: 2, 4, 6, ?","correct_answer":"8","max_score":1,"time_limit_sec":20},
+    {"question_id":"REA_02","domain":"reasoning","difficulty":"medium","question":"If all cats are animals and all animals breathe, do cats breathe?","correct_answer":"yes","max_score":1,"time_limit_sec":30},
+    {"question_id":"REA_03","domain":"reasoning","difficulty":"easy","question":"Which is heavier: rock or feather?","correct_answer":"rock","max_score":1,"time_limit_sec":15},
+    {"question_id":"REA_04","domain":"reasoning","difficulty":"medium","question":"What comes next: A, C, E, ?","correct_answer":"G","max_score":1,"time_limit_sec":25},
+    {"question_id":"REA_05","domain":"reasoning","difficulty":"hard","question":"If today is Monday, what day is after two days?","correct_answer":"Wednesday","max_score":2,"time_limit_sec":30},
+
+    {"question_id":"REA_06","domain":"reasoning","difficulty":"easy","question":"Which number is odd: 2, 4, 5?","correct_answer":"5","max_score":1,"time_limit_sec":15},
+    {"question_id":"REA_07","domain":"reasoning","difficulty":"medium","question":"If you have 3 apples and get 2 more, how many apples do you have?","correct_answer":"5","max_score":1,"time_limit_sec":25},
+    {"question_id":"REA_08","domain":"reasoning","difficulty":"medium","question":"What does a clock measure?","correct_answer":"time","max_score":1,"time_limit_sec":25},
+    {"question_id":"REA_09","domain":"reasoning","difficulty":"hard","question":"Which comes first alphabetically: dog or cat?","correct_answer":"cat","max_score":2,"time_limit_sec":30},
+    {"question_id":"REA_10","domain":"reasoning","difficulty":"hard","question":"If you cut a sandwich in half, how many pieces do you get?","correct_answer":"2","max_score":2,"time_limit_sec":30},
+
+    {"question_id":"REA_11","domain":"reasoning","difficulty":"easy","question":"Which shape has four sides: square or triangle?","correct_answer":"square","max_score":1,"time_limit_sec":15},
+    {"question_id":"REA_12","domain":"reasoning","difficulty":"medium","question":"What comes next: 10, 20, 30, ?","correct_answer":"40","max_score":1,"time_limit_sec":20},
+    {"question_id":"REA_13","domain":"reasoning","difficulty":"medium","question":"If it rains, what do you use?","correct_answer":"umbrella","max_score":1,"time_limit_sec":20},
+    {"question_id":"REA_14","domain":"reasoning","difficulty":"hard","question":"Which is faster: walking or running?","correct_answer":"running","max_score":2,"time_limit_sec":25},
+    {"question_id":"REA_15","domain":"reasoning","difficulty":"easy","question":"Which is bigger: elephant or dog?","correct_answer":"elephant","max_score":1,"time_limit_sec":15},
+
+    {"question_id":"REA_16","domain":"reasoning","difficulty":"medium","question":"If you finish homework before playing, is that good planning?","correct_answer":"yes","max_score":1,"time_limit_sec":25},
+    {"question_id":"REA_17","domain":"reasoning","difficulty":"medium","question":"What tool is used to write on paper?","correct_answer":"pen","max_score":1,"time_limit_sec":20},
+    {"question_id":"REA_18","domain":"reasoning","difficulty":"hard","question":"Which number is missing: 2, 4, 8, ?","correct_answer":"16","max_score":2,"time_limit_sec":30},
+    {"question_id":"REA_19","domain":"reasoning","difficulty":"easy","question":"Is ice cold?","correct_answer":"yes","max_score":1,"time_limit_sec":10},
+    {"question_id":"REA_20","domain":"reasoning","difficulty":"hard","question":"If you have one candle and blow it out, what happens?","correct_answer":"the light goes out","max_score":2,"time_limit_sec":30},
+
+    
+
+    {"question_id":"EXE_01","domain":"executive","difficulty":"easy","question":"If you have homework and playtime, what should you do first?","correct_answer":"homework","max_score":1,"time_limit_sec":30},
+    {"question_id":"EXE_02","domain":"executive","difficulty":"medium","question":"You need to go to school. What is the correct order?","options":["Wake up → Brush → Go to school","Go to school → Wake up → Brush"],"correct_answer":"Wake up → Brush → Go to school","max_score":1,"time_limit_sec":35},
+    {"question_id":"EXE_03","domain":"executive","difficulty":"easy","question":"Should you look both ways before crossing the road?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"EXE_04","domain":"executive","difficulty":"medium","question":"If you are hungry, what should you do?","correct_answer":"eat","max_score":1,"time_limit_sec":20},
+    {"question_id":"EXE_05","domain":"executive","difficulty":"hard","question":"If you fail a test, what is a good next step?","correct_answer":"practice more","max_score":2,"time_limit_sec":40},
+
+    {"question_id":"EXE_06","domain":"executive","difficulty":"easy","question":"Should you save money or spend it all immediately?","correct_answer":"save","max_score":1,"time_limit_sec":20},
+    {"question_id":"EXE_07","domain":"executive","difficulty":"medium","question":"If your plan does not work, what should you do?","correct_answer":"try another plan","max_score":1,"time_limit_sec":30},
+    {"question_id":"EXE_08","domain":"executive","difficulty":"medium","question":"What should you do before sleeping?","correct_answer":"brush teeth","max_score":1,"time_limit_sec":25},
+    {"question_id":"EXE_09","domain":"executive","difficulty":"hard","question":"If you have two tasks and limited time, what should you do?","correct_answer":"do the important one first","max_score":2,"time_limit_sec":40},
+    {"question_id":"EXE_10","domain":"executive","difficulty":"hard","question":"What helps you remember tasks?","correct_answer":"making a list","max_score":2,"time_limit_sec":35},
+
+    {"question_id":"EXE_11","domain":"executive","difficulty":"easy","question":"Is planning helpful?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"EXE_12","domain":"executive","difficulty":"medium","question":"If you feel tired, what should you do?","correct_answer":"rest","max_score":1,"time_limit_sec":25},
+    {"question_id":"EXE_13","domain":"executive","difficulty":"medium","question":"What should you do if you make a mistake?","correct_answer":"learn from it","max_score":1,"time_limit_sec":30},
+    {"question_id":"EXE_14","domain":"executive","difficulty":"hard","question":"How do goals help you?","correct_answer":"they give direction","max_score":2,"time_limit_sec":45},
+    {"question_id":"EXE_15","domain":"executive","difficulty":"easy","question":"Is finishing work important?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+
+    {"question_id":"EXE_16","domain":"executive","difficulty":"medium","question":"What should you do before starting a task?","correct_answer":"plan","max_score":1,"time_limit_sec":25},
+    {"question_id":"EXE_17","domain":"executive","difficulty":"medium","question":"If something is difficult, should you quit immediately?","correct_answer":"no","max_score":1,"time_limit_sec":20},
+    {"question_id":"EXE_18","domain":"executive","difficulty":"hard","question":"What helps manage time better?","correct_answer":"a schedule","max_score":2,"time_limit_sec":35},
+    {"question_id":"EXE_19","domain":"executive","difficulty":"easy","question":"Is asking for help okay?","correct_answer":"yes","max_score":1,"time_limit_sec":15},
+    {"question_id":"EXE_20","domain":"executive","difficulty":"hard","question":"Why is self-control important?","correct_answer":"it helps make better decisions","max_score":2,"time_limit_sec":45}
+
+  ]
+}
